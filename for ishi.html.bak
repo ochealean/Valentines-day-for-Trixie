@@ -1,0 +1,363 @@
+<html>
+	<head>
+		<title>Ishi</title>
+		<style>
+			body{
+			user-select:none;
+			margin:0px;
+			padding:0px;
+			background-image:url("https://f4.bcbits.com/img/a1994499417_5.jpg");
+			overflow:hidden;
+			}
+			p{
+				font-family:cursive;
+				font-size:0px;
+				color:white;
+				margin-top:50px;
+				text-shadow: 5px 5px 5px black;
+				animation:popt .5s ease .8s forwards;
+			}
+			@keyframes popt{
+				0%{font-size:0px;}
+				40%{font-size:60px;}
+				70%{font-size:50px;}
+				100%{font-size:60px;}
+			}
+			.heart{
+				
+				width:40%;
+				height:356.2px;
+			}
+			.valen{
+				background-color:;
+				width:60%;
+				height:356.2px;
+			}
+			.c1{
+				position:absolute;
+				width:1536px;
+				height:356.2px;
+				bottom:-20px;
+			}
+			.c2{
+				position:absolute;
+				bottom:19px;
+				opacity:0.5;
+				transform: scaleX(-1);
+				width:1536px;
+				height:356.2px;
+			}
+			.c3{
+				position:absolute;
+				opacity:0.5;
+				top:-40px;
+				transform: scaleY(-1);
+				width:1536px;
+				height:356.2px;
+			}
+			.r1{
+				display:flex;
+			}
+			.hrt1{
+				background-image:url("heart.png");
+				background-size:cover;
+				position:absolute;
+				top:250px;
+				right:800px;
+				animation:heart1 2s infinite linear 1s;
+			}
+			@keyframes heart1{
+				0%{width:0px; height:0px; rotate:-45deg;}
+				30%{width:40px; height:40px; top:250px; right:800px;}
+				80%{width:40px; height:40px; top:10px; right:800px; rotate:0deg; opacity:.1;}
+				100%{width:40px; height:40px; top:10px; right:800px;}
+				100%{width:45px; height:45px; top:10px; right:800px; opacity:0;}
+			}
+			.hrt2{
+				background-image:url("heart.png");
+				background-size:cover;
+				position:absolute;
+				top:200px;
+				right:680px;
+				animation:heart2 1.7s infinite linear .5s;
+			}
+			@keyframes heart2{
+				0%{width:0px; height:0px; rotate:-45deg;}
+				30%{width:40px; height:40px; top:200px; right:680px;}
+				80%{width:40px; height:40px; top:10px; right:680px; rotate:0deg; opacity:.1;}
+				100%{width:40px; height:40px; top:10px; right:680px;}
+				100%{width:45px; height:45px; top:10px; right:680px; opacity:0;}
+			}
+			.hrt3{
+				background-image:url("heart.png");
+				background-size:cover;
+				position:absolute;
+				top:130px;
+				right:750px;
+				animation:heart3 1.4s infinite linear .1s;
+			}
+			@keyframes heart3{
+				0%{width:0px; height:0px; rotate:0;}
+				30%{width:40px; height:40px; top:130px; right:750px;}
+				80%{width:40px; height:40px; top:10px; right:750px; rotate:0deg; opacity:.1;}
+				100%{width:40px; height:40px; top:10px; right:750px;}
+				100%{width:45px; height:45px; top:10px; right:750px; opacity:0;}
+			}
+			.hrt4{
+				background-image:url("heart.png");
+				background-size:cover;
+				position:absolute;
+				top:100px;
+				right:620px;
+				animation:heart4 1s infinite linear .8s;
+			}
+			@keyframes heart4{
+				0%{width:0px; height:0px; rotate:45deg;}
+				30%{width:40px; height:40px; top:100px; right:620px;}
+				80%{width:40px; height:40px; top:10px; right:620px; rotate:0deg; opacity:.1;}
+				100%{width:40px; height:40px; top:10px; right:620px;}
+				100%{width:45px; height:45px; top:10px; right:620px; opacity:0;}
+			}
+			.hrt5{
+				background-image:url("heart.png");
+				background-size:cover;
+				position:absolute;
+				top:230px;
+				right:220px;
+				animation:heart5 1.7s infinite linear .3s;
+			}
+			@keyframes heart5{
+				0%{width:0px; height:0px; rotate:-45deg;}
+				30%{width:40px; height:40px; top:230px; right:220px;}
+				80%{width:40px; height:40px; top:10px; right:220px; rotate:0deg; opacity:.1;}
+				100%{width:40px; height:40px; top:10px; right:220px;}
+				100%{width:45px; height:45px; top:10px; right:220px; opacity:0;}
+			}
+			.hrt6{
+				background-image:url("heart.png");
+				background-size:cover;
+				position:absolute;
+				top:180px;
+				right:100px;
+				animation:heart6 1.5s infinite linear 1s;
+			}
+			@keyframes heart6{
+				0%{width:0px; height:0px; rotate:45deg;}
+				30%{width:40px; height:40px; top:180px; right:100px;}
+				80%{width:40px; height:40px; top:10px; right:100px; rotate:0deg; opacity:.1;}
+				100%{width:40px; height:40px; top:10px; right:100px;}
+				100%{width:45px; height:45px; top:10px; right:100px; opacity:0;}
+			}
+			.hrt7{
+				background-image:url("heart.png");
+				background-size:cover;
+				position:absolute;
+				top:130px;
+				right:170px;
+				animation:heart7 1.7s infinite linear .2s;
+			}
+			@keyframes heart7{
+				0%{width:0px; height:0px; rotate:-45deg;}
+				30%{width:40px; height:40px; top:130px; right:170px;}
+				80%{width:40px; height:40px; top:10px; right:170px; rotate:0deg; opacity:.1;}
+				100%{width:40px; height:40px; top:10px; right:170px;}
+				100%{width:45px; height:45px; top:10px; right:170px; opacity:0;}
+			}
+			.stm1{
+				background-color:white;
+				width:3px;
+				height:100px;
+				position:absolute;
+				top:0px;
+				left:150px;
+			}
+			.stm2{
+				background-color:white;
+				width:3px;
+				height:200px;
+				position:absolute;
+				top:0px;
+				left:300px;
+			}
+			.stm3{
+				background-color:white;
+				width:3px;
+				height:150px;
+				position:absolute;
+				top:0px;
+				left:450px;
+			}
+			.pc1{
+				background-image:url("heart.png");
+				background-size:cover;
+				width:100px;
+				height:100px;
+				position:absolute;
+				top:80px;
+				left:101.2px;
+				transition:.5s;
+			}
+			.pc1:hover{
+				box-shadow: 10px 10px 15px black;
+				background-image:url("ishi.jpg");
+				background-size:cover;
+			}
+			.pc2{
+				background-image:url("heart.png");
+				background-size:cover;
+				width:100px;
+				height:100px;
+				position:absolute;
+				top:180px;
+				left:251.2px;
+				text-shadow: 10px 10px 5px black;
+				transition:.5s;
+			}
+			.pc2:hover{
+				box-shadow: 10px 10px 15px black;
+				background-image:url("ishi2.jpg");
+				background-size:cover;
+			}
+			.pc3{
+				background-image:url("heart.png");
+				background-size:cover;
+				width:100px;
+				height:100px;
+				position:absolute;
+				top:130px;
+				left:401.2px;
+				text-shadow: 10px 10px 50px black;
+				transition:.5s;
+			}
+			.pc3:hover{
+				box-shadow: 10px 10px 15px black;
+				background-image:url("ishi3.jpg");
+				background-size:cover;
+			}
+			.pt2{
+				background-color:;
+				width:922px;
+				height:356.2px;
+				position:absolute;
+				top:0px;
+				right:0px;
+			}
+			.bg{
+				height:1422.4px;
+				background-color:black;
+				position:absolute;
+				top:0px;
+				opacity:.5;
+			}
+			.letter{
+				animation-duration:.5s;
+				animation-delay:1s;
+				animation-timing-function: ease;
+				animation-fill-mode: forwards;
+				background-image:url("paper.png");
+				background-size:cover;
+				position:absolute;
+				top:300px;
+				left:500px;
+				text-align:center;
+				border-radius:5px;
+				box-shadow:2px 2px 5px black;
+			}
+			@keyframes valLetter{
+				0%{width:0px; height:0px;}
+				40%{width:450px; height:250px;}
+				70%{width:440px; height:240px;}
+				100%{width:450px; height:250px;}
+			}
+			.cletter{
+				background-image:url("cover.png");
+				background-size:cover;
+				animation-duration:.5s;
+				animation-delay:1s;
+				animation-timing-function: ease;
+				animation-fill-mode: forwards;
+				position:absolute;
+				top:118px;
+				left:400px;
+			}
+			@keyframes cletter{
+				0%{width:0px; height:0px;}
+				40%{width:650px; height:550px;}
+				70%{width:640px; height:540px;}
+				100%{width:650px; height:550px;}
+			}
+			.cover1{
+				background-image:url("cbg.png");
+				background-size:cover;
+				position:absolute;
+				top:118px;
+				left:400px;
+				width:0px; 
+				height:550px;
+			}
+			.cover2{
+				background-image:url("cf.png");
+				background-size:cover;
+				position:absolute;
+				top:118px;
+				left:400px;
+				width:0px; 
+				height:550px;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<span class="r1">
+			<div class="heart">
+				<img src="cloud.png" class="c3"></div>
+				<div class="stm1"></div>
+				<div class="stm2"></div>
+				<div class="stm3"></div>
+				<div class="pc1"></div>
+				<div class="pc2"></div>
+				<div class="pc3"></div>
+			</div>
+			<div class="valen">
+				<center><i><p>Happy <br/>Valentine's <br/>Day</p></i></b></center>
+				<div class="hrt1"></div>
+				<div class="hrt2"></div>
+				<div class="hrt3"></div>
+				<div class="hrt4"></div>
+				<div class="hrt5"></div>
+				<div class="hrt6"></div>
+				<div class="hrt7"></div>
+			</div>
+		</span>
+			<div class="clouds">
+				<img src="cloud.png" class="c1"></div>
+				<img src="cloud.png" class="c2"></div>
+			</div>
+			<div class="pt2" id="ft2" onclick="myFunc()"></div>
+			<div class="bg" id="ft2bg"></div>
+			<div class="cover1" id="cover1"onclick="message()"></div>
+			<div class="letter" id="letter"onclick="message()"></div>
+			<div class="cletter" id="cletter"onclick="unwrap()"></div>
+			<div class="cover2" id="cover2"onclick="message()"></div>
+		
+		<script>
+			function myFunc() {
+				document.getElementById("ft2bg").style.width = "1536px";
+				document.getElementById("letter").style.animationName = "valLetter";
+				document.getElementById("cletter").style.animationName = "cletter";  
+			}
+			function unwrap() {
+				document.getElementById("cover1").style.width = "650px";
+				document.getElementById("cletter").style.top = "-1000px";
+				document.getElementById("cover2").style.width = "650px";
+			}
+			function message() {
+				document.getElementById("letter").innerHTML = "<i>Hi trixiee, ishi,Lucky charm, vm sender, love. Kahit ano pa itawag ko sayo sa mga yan ikaw naman lahat yan, alam kong ilang beses ko na sinabi sayo to pero napaka swerte ko talaga sayo, having someone like you na minamahal ako tulad ng pagmamahal na binibigay ko, someone na gusto din ako, someone na nanjan para saken, yung someone na nageefort para sakin at higit sa lahat yung someone na tanggap ako ng buong buo. Ikaw yung someone na gusto kong magkaroon sa buhay ko, at ikaw yung someone na ayoko nang mawala. I Love You Trixie and Happy Valentine's Day.<br/><br/><br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Lean</i>" ;
+				document.getElementById("letter").style.height = "600px";
+				document.getElementById("cover1").style.width = "0px";
+				document.getElementById("cletter").style.top = "-1000px";
+				document.getElementById("cover2").style.width = "0px";
+			}
+		</script>
+	</body>
+</html>
